@@ -5,7 +5,7 @@ This is a simplified **crypto trading bot** I built for the Binance **USDT-M Fut
 
 > 🔐 All trades are simulated on Binance's Testnet — no real money is involved.
 ---
-Short walkthrough : [https://drive.google.com/file/d/1ZVVviIswth1pZeuWerc4vXrlgzl8fE-J/view?usp=sharing](walkthrough)
+Short walkthrough : (https://drive.google.com/file/d/1ZVVviIswth1pZeuWerc4vXrlgzl8fE-J/view?usp=sharing)
 ---
 
 ## 🚀 Features
