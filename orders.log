@@ -1,0 +1,133 @@
+2025-05-15 08:58:04,606 - WARNING -  * Debugger is active!
+2025-05-15 08:58:04,607 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 08:58:13,550 - INFO - Placing order: BTCUSDT SELL STOP_LIMIT 1.0 Price=100000 StopPrice=99000
+2025-05-15 08:58:13,920 - INFO - Order response: {'orderId': 4428246241, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ32f8cf0e45d152968cd6bf', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '99000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747279695499}
+2025-05-15 08:58:13,932 - INFO - 127.0.0.1 - - [15/May/2025 08:58:13] "POST / HTTP/1.1" 200 -
+2025-05-15 08:58:47,907 - INFO - Placing order: BTCUSDT BUY STOP_LIMIT 3.0 Price=110000 StopPrice=120000
+2025-05-15 08:58:48,238 - ERROR - \u274c Order failed: APIError(code=-2019): Margin is insufficient.
+2025-05-15 08:58:48,243 - INFO - 127.0.0.1 - - [15/May/2025 08:58:48] "POST / HTTP/1.1" 200 -
+2025-05-15 08:59:13,869 - INFO - Placing order: ETHUSDT BUY STOP_LIMIT 1.0 Price=100000 StopPrice=99000
+2025-05-15 08:59:14,186 - ERROR - \u274c Order failed: APIError(code=-4007): Stop price greater than max price.
+2025-05-15 08:59:14,191 - INFO - 127.0.0.1 - - [15/May/2025 08:59:14] "POST / HTTP/1.1" 200 -
+2025-05-15 08:59:59,022 - INFO - Placing order: BTCUSDT SELL LIMIT 1.0 Price=110000 StopPrice=
+2025-05-15 08:59:59,348 - INFO - Order response: {'orderId': 4428248307, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ6b8e0ea667ee0327a5506', 'price': '110000.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747279800930}
+2025-05-15 08:59:59,352 - INFO - 127.0.0.1 - - [15/May/2025 08:59:59] "POST / HTTP/1.1" 200 -
+2025-05-15 09:13:55,854 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\logging\\__init__.py', reloading
+2025-05-15 09:13:58,127 - WARNING -  * Debugger is active!
+2025-05-15 09:13:58,130 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:14:18,331 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-05-15 09:14:18,339 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\app.py', reloading
+2025-05-15 09:14:20,114 - WARNING -  * Debugger is active!
+2025-05-15 09:14:20,116 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:14:30,500 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-05-15 09:14:30,505 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-05-15 09:14:30,512 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-05-15 09:14:30,517 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-05-15 09:14:33,010 - WARNING -  * Debugger is active!
+2025-05-15 09:14:33,013 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:40:13,146 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 09:40:13,147 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 09:40:13,183 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:40:15,762 - WARNING -  * Debugger is active!
+2025-05-15 09:40:15,768 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:40:42,373 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 09:40:42,373 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 09:40:42,404 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:40:44,944 - WARNING -  * Debugger is active!
+2025-05-15 09:40:44,949 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:40:51,113 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-05-15 09:40:51,128 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-05-15 09:40:52,294 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:40:56,530 - WARNING -  * Debugger is active!
+2025-05-15 09:40:56,540 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:41:02,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 09:41:02,914 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 09:41:02,945 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:41:06,068 - WARNING -  * Debugger is active!
+2025-05-15 09:41:06,073 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:41:24,726 - INFO - 127.0.0.1 - - [15/May/2025 09:41:24] "GET / HTTP/1.1" 200 -
+2025-05-15 09:41:26,476 - INFO - 127.0.0.1 - - [15/May/2025 09:41:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-15 09:42:04,581 - INFO - Placing order: ETHUSDT BUY MARKET 2.0 Price= StopPrice=
+2025-05-15 09:42:04,986 - INFO - Order response: {'orderId': 1753543321, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1c83fa38eee6f301bb7bc1', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '2.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747282326078}
+2025-05-15 09:42:04,994 - INFO - 127.0.0.1 - - [15/May/2025 09:42:04] "POST / HTTP/1.1" 200 -
+2025-05-15 09:43:03,007 - INFO - Placing order: ETHUSDT SELL MARKET 1.0 Price= StopPrice=
+2025-05-15 09:43:03,122 - INFO - Order response: {'orderId': 1753544825, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ3232d3e4f38d7e6f402ee2', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747282384214}
+2025-05-15 09:43:03,134 - INFO - 127.0.0.1 - - [15/May/2025 09:43:03] "POST / HTTP/1.1" 200 -
+2025-05-15 09:43:58,199 - INFO - Placing order: BTCUSDT SELL LIMIT 0.01 Price=103000 StopPrice=
+2025-05-15 09:43:58,518 - INFO - Order response: {'orderId': 4428330844, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ6a8da4fa2696fb698ac8fc', 'price': '103000.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747282439611}
+2025-05-15 09:43:58,526 - INFO - 127.0.0.1 - - [15/May/2025 09:43:58] "POST / HTTP/1.1" 200 -
+2025-05-15 09:45:50,926 - INFO - Placing order: ETHUSDT BUY STOP_LIMIT 2.0 Price=2300 StopPrice=2250
+2025-05-15 09:45:51,044 - ERROR - \u274c Order failed: APIError(code=-2021): Order would immediately trigger.
+2025-05-15 09:45:51,050 - INFO - 127.0.0.1 - - [15/May/2025 09:45:51] "POST / HTTP/1.1" 200 -
+2025-05-15 09:46:27,544 - INFO - Placing order: ETHUSDT SELL STOP_LIMIT 2.0 Price=1500 StopPrice=1450
+2025-05-15 09:46:27,865 - INFO - Order response: {'orderId': 1753550467, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJa056ea539be0083acb913', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '2.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '1450.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747282588964}
+2025-05-15 09:46:27,873 - INFO - 127.0.0.1 - - [15/May/2025 09:46:27] "POST / HTTP/1.1" 200 -
+2025-05-15 09:47:31,868 - INFO - Placing order: BTCUSDT SELL STOP_LIMIT 0.05 Price=104000 StopPrice=103500
+2025-05-15 09:47:32,182 - ERROR - \u274c Order failed: APIError(code=-2021): Order would immediately trigger.
+2025-05-15 09:47:32,194 - INFO - 127.0.0.1 - - [15/May/2025 09:47:32] "POST / HTTP/1.1" 200 -
+2025-05-15 09:48:03,210 - INFO - Placing order: BTCUSDT BUY STOP_LIMIT 0.05 Price=106000 StopPrice=105000
+2025-05-15 09:48:03,328 - INFO - Order response: {'orderId': 4428338397, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJe937ceb8c4c205117fe184', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.050', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '105000.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747282684429}
+2025-05-15 09:48:03,337 - INFO - 127.0.0.1 - - [15/May/2025 09:48:03] "POST / HTTP/1.1" 200 -
+2025-05-15 09:50:19,641 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\config.py', reloading
+2025-05-15 09:50:19,864 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:50:22,773 - WARNING -  * Debugger is active!
+2025-05-15 09:50:22,781 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:52:47,042 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-05-15 09:52:47,116 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-05-15 09:52:47,356 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-05-15 09:52:47,800 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:52:51,125 - WARNING -  * Debugger is active!
+2025-05-15 09:52:51,129 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 09:52:53,887 - INFO -  * Detected change in 'D:\\crypto_bot\\bot.py', reloading
+2025-05-15 09:52:53,889 - INFO -  * Detected change in 'D:\\crypto_bot\\app.py', reloading
+2025-05-15 09:52:54,604 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:56:26,737 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 09:56:26,738 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 09:56:26,765 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 09:56:29,423 - WARNING -  * Debugger is active!
+2025-05-15 09:56:29,427 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 10:02:56,340 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 10:02:56,341 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 10:02:56,378 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-15 10:02:59,613 - WARNING -  * Debugger is active!
+2025-05-15 10:02:59,620 - INFO -  * Debugger PIN: 111-373-622
+2025-05-15 10:03:05,043 - INFO - 127.0.0.1 - - [15/May/2025 10:03:05] "GET / HTTP/1.1" 200 -
+2025-05-15 10:03:25,310 - INFO - Placing order: BTCUSDT BUY MARKET 1.0 Price= StopPrice=
+2025-05-15 10:03:25,504 - INFO - Order response: {'orderId': 4428363449, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ3990301f7af6b7d21fdda7', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747283606630}
+2025-05-15 10:03:25,510 - INFO - 127.0.0.1 - - [15/May/2025 10:03:25] "POST / HTTP/1.1" 200 -
+2025-05-15 10:04:03,201 - INFO - Placing order: BTCUSDT BUY MARKET 1.0 Price= StopPrice=
+2025-05-15 10:04:03,519 - ERROR - \u274c Order failed: APIError(code=-2019): Margin is insufficient.
+2025-05-15 10:04:03,531 - INFO - 127.0.0.1 - - [15/May/2025 10:04:03] "POST / HTTP/1.1" 200 -
+2025-05-15 10:04:12,241 - INFO - Placing order: BTCUSDT BUY MARKET 1.0 Price= StopPrice=
+2025-05-15 10:04:12,359 - ERROR - \u274c Order failed: APIError(code=-2019): Margin is insufficient.
+2025-05-15 10:04:12,369 - INFO - 127.0.0.1 - - [15/May/2025 10:04:12] "POST / HTTP/1.1" 200 -
+2025-05-15 10:04:28,044 - INFO - Placing order: BTCUSDT SELL MARKET 1.0 Price= StopPrice=
+2025-05-15 10:04:28,366 - INFO - Order response: {'orderId': 4428365271, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4c48882479af11ad5d3569', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747283669492}
+2025-05-15 10:04:28,372 - INFO - 127.0.0.1 - - [15/May/2025 10:04:28] "POST / HTTP/1.1" 200 -
+2025-05-15 10:04:47,472 - INFO - Placing order: ETHUSDT BUY MARKET 2.0 Price= StopPrice=
+2025-05-15 10:04:47,788 - INFO - Order response: {'orderId': 1753579636, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJe0d7b09a5b00265451baac', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '2.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747283688917}
+2025-05-15 10:04:47,796 - INFO - 127.0.0.1 - - [15/May/2025 10:04:47] "POST / HTTP/1.1" 200 -
+2025-05-15 10:05:34,011 - INFO - Placing order: ETHUSDT SELL LIMIT 2.0 Price=3000 StopPrice=
+2025-05-15 10:05:34,328 - INFO - Order response: {'orderId': 1753581300, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ6976b7108a8b2983d64c66', 'price': '3000.00', 'avgPrice': '0.00', 'origQty': '2.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747283735456}
+2025-05-15 10:05:34,336 - INFO - 127.0.0.1 - - [15/May/2025 10:05:34] "POST / HTTP/1.1" 200 -
+2025-05-15 10:12:26,584 - INFO - Placing order: ETHUSDT BUY STOP_LIMIT 1.0 Price=1500 StopPrice=1350
+2025-05-15 10:12:26,905 - ERROR - \u274c Order failed: APIError(code=-2021): Order would immediately trigger.
+2025-05-15 10:12:26,912 - INFO - 127.0.0.1 - - [15/May/2025 10:12:26] "POST / HTTP/1.1" 200 -
+2025-05-15 10:12:56,473 - INFO - Placing order: ETHUSDT BUY STOP_LIMIT 1.0 Price=1000 StopPrice=750
+2025-05-15 10:12:56,792 - ERROR - \u274c Order failed: APIError(code=-2021): Order would immediately trigger.
+2025-05-15 10:12:56,804 - INFO - 127.0.0.1 - - [15/May/2025 10:12:56] "POST / HTTP/1.1" 200 -
+2025-05-15 10:14:00,356 - INFO - 127.0.0.1 - - [15/May/2025 10:14:00] "GET / HTTP/1.1" 200 -
+2025-05-15 10:14:26,105 - INFO - Placing order: BTCUSDT SELL STOP_LIMIT 1.0 Price=105000 StopPrice=104450
+2025-05-15 10:14:26,421 - ERROR - \u274c Order failed: APIError(code=-2021): Order would immediately trigger.
+2025-05-15 10:14:26,427 - INFO - 127.0.0.1 - - [15/May/2025 10:14:26] "POST / HTTP/1.1" 200 -
+2025-05-15 10:14:56,736 - INFO - Placing order: BTCUSDT SELL STOP_LIMIT 1.0 Price=103000 StopPrice=102990
+2025-05-15 10:14:57,050 - ERROR - \u274c Order failed: APIError(code=-2021): Order would immediately trigger.
+2025-05-15 10:14:57,056 - INFO - 127.0.0.1 - - [15/May/2025 10:14:57] "POST / HTTP/1.1" 200 -
+2025-05-15 10:15:15,033 - INFO - Placing order: ETHUSDT SELL STOP_LIMIT 2.0 Price=2300 StopPrice=2250
+2025-05-15 10:15:15,351 - INFO - Order response: {'orderId': 1753597721, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ3eb31fe69f4cfdc6c18066', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '2.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '2250.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1747284316497}
+2025-05-15 10:15:15,358 - INFO - 127.0.0.1 - - [15/May/2025 10:15:15] "POST / HTTP/1.1" 200 -
